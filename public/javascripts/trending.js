@@ -1,11 +1,11 @@
 (function () {
   function giphySearch() {
-    return fetch(`https://api.giphy.com/v1/gifs/trending?api_key=FVgqump2sTLo0YBszw5Jj6k8yjDXF9fG&limit=5&rating=g`)
+    return fetch(`https://api.giphy.com/v1/gifs/trending?api_key=${key}`) 
       .then(response => response.json());
 	  
   }
   function stickerSearch() {
-    return fetch(`https://api.giphy.com/v1/stickers/trending?api_key=FVgqump2sTLo0YBszw5Jj6k8yjDXF9fG&limit=5&rating=g`)
+    return fetch(`https://api.giphy.com/v1/stickers/trending?api_key=${key}`)
       .then(response => response.json());
   }
 
