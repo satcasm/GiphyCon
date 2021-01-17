@@ -4,7 +4,7 @@ MovieApp is a simple and iteractive application that uses [Giphy Api](https://de
 Also an user can use the search endpoint to get the desired gifs and stickers.
 
 
-### Prerequisites
+## Prerequisites
 
 [Node js](https://nodejs.org/en/download/) and [git bash](https://git-scm.com/downloads) should be installed in your system.
 
