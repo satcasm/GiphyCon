@@ -1,0 +1,295 @@
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #e8e8e8;
+}
+.section {
+  width: 100%;
+  height: 300px;
+  padding: 0;
+  position: absolute;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+.brand {
+  width: 100%;
+  height: 200px;
+  padding: 0;
+  position: absolute;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+.one {
+  top: 0px;
+  left: 0px;
+  background: url(https://steamuserimages-a.akamaihd.net/ugc/952967626526071953/65F816BA7BDC25DD93F81945B300A5E5B27B5D3F/) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: search
+}
+.one #main {
+  width: 203px;
+  padding: 6px;
+  height: 50px;
+  color: #f6f6f6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: #fff 2px solid;
+  overflow: hidden;
+  -webkit-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+	cursor: default;
+  box-shadow: 0px 0px 0px #fff;
+}
+.one #main:hover {
+  text-shadow: 0px 8px 6px rgba(0, 0, 0, 0.9);
+  box-shadow: 8px 8px 0px #fff, -8px -8px 0px #fff;
+}
+.one #main:hover .one {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+.one #main:hover .two {
+  transform: translate3d(0px, 0px, 0px);
+}
+.one #main:hover .three {
+  transform: translate3d(0px, 0px, 0px);
+}
+.one #main:hover .four {
+  transform: translate3d(0px, 0px, 0px);
+}
+.one #main .ring {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: transparent;
+  top: 0;
+  left: 0;
+  transform: translate3d(0px, 90px, 0px);
+}
+.one #main .one {
+  background-color: #fe6b26;
+  -webkit-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  -moz-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -3;
+  z-index: -4;
+}
+.one #main .two {
+  background-color: #fe8efe;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  -moz-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -3;
+}
+.one #main .three {
+  background-color: #841ee4;
+  z-index: -2;
+  -webkit-transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
+  -moz-transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -3;
+}
+.one #main .four {
+  background-color: #3e12fd;
+  z-index: -1;
+  -webkit-transition: all 0.9s cubic-bezier(0.55, 0, 0.1, 1);
+  -moz-transition: all 0.9s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 0.9s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.9s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -3;
+}
+
+.two {
+  top: 200px;
+  left: 0;
+  background: url(https://images.unsplash.com/photo-1545424273-4dd93a233016?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80&fm=jpg&crop=entropy&cs=tinysrgb) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.two #search {
+  width: 140px;
+  padding: 13px;
+  height: 50px;
+  color: #f6f6f6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: transparent;
+  overflow: hidden;
+  -webkit-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  cursor: pointer;
+  /* box-shadow: 0px 0px 0px #fff; */
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  border: #594a83 solid 8px;
+  z-index: 0;
+}
+.two #search::after {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#fa9579), to(transparent));
+  background-image: -webkit-linear-gradient(left, #fa9579, transparent);
+  background-image: -moz-linear-gradient(left, #fa9579, transparent);
+  background-image: -o-linear-gradient(left, #fa9579, transparent);
+  z-index: -1;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+	 box-shadow: 0px 20px 8px rgba(0, 0, 0, 0.6);
+}
+.two #search:hover::after {
+  width: 800%;
+}
+.two a:hover {
+  color: #505050;
+ 
+}
+
+.three {
+  z-index: -1;
+  top: 500px;
+  left: 0;
+  background: url(https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=a9ed512366462aff761f7c04ac383675) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.three #trending {
+  width: 200px;
+  padding: 12px;
+  height: 50px;
+  color: #f6f6f6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: transparent;
+  -webkit-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #fff;
+  z-index: 0;
+}
+.three #trending .ring {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  top: 40%;
+  left: 45%;
+  -webkit-transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+  -moz-transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+  transform: perspective(500px) translate3d(0px, 0px, 0px);
+  opacity: 0;
+}
+.three #trending:hover .one {
+  transform: perspective(500px) translate3d(-90px, -50px, 150px);
+  opacity: 1;
+}
+.three #trending:hover .two {
+  transform: perspective(800px) translate3d(-130px, 50px, 180px);
+  opacity: 0.6;
+}
+.three #trending:hover .three {
+  transform: perspective(800px) translate3d(130px, 50px, 30px);
+  opacity: 0.2;
+}
+.three #trending:hover .four {
+  transform: perspective(800px) translate3d(130px, -120px, 80px);
+  opacity: 0.9;
+}
+.three #trending::after {
+  position: absolute;
+  top: -42px;
+  left: 22px;
+  width: 175px;
+  height: 165px;
+  content: "";
+  background: #fff;
+  z-index: -1;
+  transform: perspective(1000px) scale(0) rotate(0deg);
+  -webkit-transition: all 2s cubic-bezier(0.55, 0, 0.1, 1);
+  -moz-transition: all 2s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 2s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 2s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.three #trending:before {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  width: 180px;
+  height: 160px;
+  border: solid 1px #fff;
+  content: "";
+  background: transparent;
+  z-index: -1;
+  transform: perspective(1000px) scale(0.5) rotate(0deg);
+  -webkit-transition: all 2s cubic-bezier(0.55, 0, 0.1, 1);
+  -moz-transition: all 2s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 2s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 2s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.three #trending:hover::after {
+  transform: perspective(1000px) scale(1) rotate(600deg);
+}
+.three #trending:hover::before {
+  transform: perspective(1000px) scale(1) rotate(-75deg);
+}
+.three a:hover {
+ 	color: #505050;
+}
